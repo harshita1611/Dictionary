@@ -1,0 +1,79 @@
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search{
+  margin-top: 25px;
+}
+.search input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.search button{
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  padding-bottom: 4.5px;
+  cursor: pointer
+}
+.search button:hover{
+  background-color: #ddd;
+}
+.search button:active{
+  background-color: #ccc;
+}
+.search input , .search button{
+  outline: none;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.word p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #b04ce6;
+}
+
+hr{
+  border: 1px solid #ccc;
+}
+.meaning , .synonyms {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6e6a6a;
+}
+.meaning span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b04ce6;
+}
+.synonyms span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b04ce6;
+}
+
+.partOfSpeech{
+  font-size: 20px;
+  font-weight: bold;
+  color: #6e6a6a;
+}
+
+.sourceURL{
+  font-size: 20px;
+  font-weight: bold;
+  color: #6e6a6a;
+}
+
+.sourceURL span{
+  font-size: 16px;
+  font-weight: bold;
+  color: #b04ce6;
+}
